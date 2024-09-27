@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bacsis</title>
+  </head>
+  <body>
+    <h1>Calculator Bacșiș</h1>
+    <h2>Introduceti valoarea notei:</h2>
+    <input type="number" id="billAmount" placeholder="Valoarea notei" />
+
+    <h2>Cat doriti sa lasati bacsis?</h2>
+    <input type="radio" id="no-tip" name="tip" value="0" checked />
+    <label for="no-tip">nu las bacsis</label><br />
+
+    <input type="radio" id="5" name="tip" value="5" />
+    <label for="5">5%</label><br />
+
+    <input type="radio" id="10" name="tip" value="10" />
+    <label for="10">10%</label><br />
+
+    <input type="radio" id="15" name="tip" value="15" />
+    <label for="15">15%</label><br />
+
+    <input
+      type="number"
+      id="customTip"
+      placeholder="Optiune custom"
+    />
+    <button type="button" id="calculateBtn">Calculeaza</button>
+    <button type="reset">Reset</button>
+
+    <h2>Rezultate:</h2>
+    <p id="result"></p>
+
+    <script>
+      // Aici se va adauga scriptul pentru logica de calcul
+    </script>
+  </body>
+</html>
